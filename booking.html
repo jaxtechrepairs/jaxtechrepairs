@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="manifest" href="/manifest.json"/>
+  <title>Book Support | JaxTech Repairs</title>
+  <meta name="description" content="Book an Appointment, remote session, or phone consultation with JaxTech Repairs in Crossville, TN. Available Wednesday and by appointment. Text or call 931-248-6663."/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.0/css/all.min.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header class="navbar dark-nav" id="navbar">
+  <div class="nav-inner">
+    <a href="/" class="logo" aria-label="JaxTech Repairs Home">
+      <img src="/images/logo.png" alt="JaxTech Repairs" width="4096" height="2728">
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="pricing.html">Pricing</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="nav-actions">
+      <a href="admin.html" class="admin-btn btn btn-secondary btn-sm"><i class="fas fa-gauge-high"></i> Admin</a>
+      <a href="booking.html" class="cta btn btn-primary btn-sm"><i class="fas fa-headset"></i> Get Support</a>
+      <button class="hamburger" id="menuBtn" type="button" aria-controls="mobileMenu" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="index.html">Home</a>
+    <a href="services.html">Services</a>
+    <a href="pricing.html">Pricing</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+    <a href="admin.html">Admin Dashboard</a>
+    <a href="booking.html" class="btn btn-primary">Get Support Now</a>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="container">
+    <div class="page-hero-content fade-up">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a><i class="fas fa-chevron-right"></i><span>Book Support</span>
+      </div>
+      <h1>Start Your Support Request</h1>
+      <p>House call, remote session, or phone consultation — choose what works best for you. I'll confirm quickly.</p>
+    </div>
+  </div>
+</section>
+
+<!-- BOOKING -->
+<section class="section">
+  <div class="container">
+    <div class="booking-layout">
+
+      <!-- SIDEBAR -->
+      <aside>
+        <div class="booking-info-card fade-up">
+          <h3 style="margin-bottom:16px;font-size:1rem;"><i class="fas fa-headset" style="color:var(--accent);margin-right:8px;"></i>Support Options</h3>
+          <div style="display:flex;flex-direction:column;gap:10px;">
+            <div style="display:flex;align-items:flex-start;gap:12px;padding:12px;background:var(--off-white);border-radius:var(--radius-sm);border:1px solid var(--border);">
+              <i class="fas fa-store" style="color:var(--accent);margin-top:3px;font-size:1rem;width:18px;"></i>
+              <div><p style="font-weight:600;font-size:0.88rem;color:var(--text-primary);margin-bottom:2px;">In-Store / Drop-Off</p><p style="font-size:0.8rem;">Drop off your device for in-person help.</p></div>
+            </div>
+            <div style="display:flex;align-items:flex-start;gap:12px;padding:12px;background:var(--off-white);border-radius:var(--radius-sm);border:1px solid var(--border);">
+              <i class="fas fa-wifi" style="color:var(--teal);margin-top:3px;font-size:1rem;width:18px;"></i>
+              <div><p style="font-weight:600;font-size:0.88rem;color:var(--text-primary);margin-bottom:2px;">Remote Support</p><p style="font-size:0.8rem;">I connect to your device online and fix it.</p></div>
+            </div>
+            <div style="display:flex;align-items:flex-start;gap:12px;padding:12px;background:var(--off-white);border-radius:var(--radius-sm);border:1px solid var(--border);">
+              <i class="fas fa-house" style="color:var(--success);margin-top:3px;font-size:1rem;width:18px;"></i>
+              <div><p style="font-weight:600;font-size:0.88rem;color:var(--text-primary);margin-bottom:2px;">House Call / On-Site</p><p style="font-size:0.8rem;">I come to your home — my specialty!</p></div>
+            </div>
+            <div style="display:flex;align-items:flex-start;gap:12px;padding:12px;background:var(--off-white);border-radius:var(--radius-sm);border:1px solid var(--border);">
+              <i class="fas fa-phone" style="color:var(--warning);margin-top:3px;font-size:1rem;width:18px;"></i>
+              <div><p style="font-weight:600;font-size:0.88rem;color:var(--text-primary);margin-bottom:2px;">Phone Consultation</p><p style="font-size:0.8rem;">Talk through the issue with me directly.</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="booking-info-card fade-up fade-up-delay-1">
+          <h3 style="margin-bottom:14px;font-size:1rem;"><i class="fas fa-clock" style="color:var(--accent);margin-right:8px;"></i>Hours</h3>
+          <div style="display:flex;flex-direction:column;gap:7px;font-size:0.86rem;">
+            <div style="display:flex;justify-content:space-between;"><span style="font-weight:500;">Wednesday</span><span style="color:var(--success);font-weight:600;">All Day ✓</span></div>
+            <div style="display:flex;justify-content:space-between;"><span style="font-weight:500;">Mon / Tue / Thu / Fri</span><span>By Appointment</span></div>
+            <div style="display:flex;justify-content:space-between;"><span style="font-weight:500;">Sunday</span><span>By Appointment</span></div>
+            <div style="display:flex;justify-content:space-between;"><span style="font-weight:500;">Saturday</span><span style="color:var(--danger);">Closed</span></div>
+          </div>
+          <div style="margin-top:14px;background:rgba(37,99,235,0.05);border:1px solid rgba(37,99,235,0.15);border-radius:var(--radius-sm);padding:11px 13px;">
+            <p style="font-size:0.8rem;"><i class="fas fa-comment-sms" style="color:var(--accent);margin-right:6px;"></i>Text <strong>931-248-6663</strong> for urgent support anytime.</p>
+          </div>
+        </div>
+
+        <div class="booking-info-card fade-up fade-up-delay-2">
+          <h3 style="margin-bottom:12px;font-size:1rem;"><i class="fas fa-shield-halved" style="color:var(--success);margin-right:8px;"></i>Our Promise</h3>
+          <div style="display:flex;flex-direction:column;gap:8px;">
+            <div style="display:flex;align-items:center;gap:8px;font-size:0.84rem;"><i class="fas fa-check-circle" style="color:var(--success);"></i><span>Free diagnostics before any work</span></div>
+            <div style="display:flex;align-items:center;gap:8px;font-size:0.84rem;"><i class="fas fa-check-circle" style="color:var(--success);"></i><span>90-day guarantee on all support</span></div>
+            <div style="display:flex;align-items:center;gap:8px;font-size:0.84rem;"><i class="fas fa-check-circle" style="color:var(--success);"></i><span>No fix = no charge</span></div>
+            <div style="display:flex;align-items:center;gap:8px;font-size:0.84rem;"><i class="fas fa-check-circle" style="color:var(--success);"></i><span>Transparent pricing upfront</span></div>
+            <div style="display:flex;align-items:center;gap:8px;font-size:0.84rem;"><i class="fas fa-check-circle" style="color:var(--success);"></i><span>Text & email confirmation</span></div>
+          </div>
+        </div>
+
+        <!-- Upcoming appointments preview -->
+        <div class="booking-info-card fade-up fade-up-delay-3">
+          <h3 style="margin-bottom:14px;font-size:1rem;"><i class="fas fa-calendar-check" style="color:var(--accent);margin-right:8px;"></i>Availability</h3>
+          <div id="availability-preview" style="font-size:0.82rem;color:var(--text-secondary);">
+            <div style="display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px solid var(--border);">
+              <i class="fas fa-circle" style="color:var(--success);font-size:0.5rem;"></i>
+              <span><strong>Today</strong> — Slots available</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:8px;padding:7px 0;border-bottom:1px solid var(--border);">
+              <i class="fas fa-circle" style="color:var(--success);font-size:0.5rem;"></i>
+              <span><strong>Tomorrow</strong> — Slots available</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:8px;padding:7px 0;">
+              <i class="fas fa-circle" style="color:var(--warning);font-size:0.5rem;"></i>
+              <span><strong>Saturday</strong> — Limited slots</span>
+            </div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- BOOKING FORM -->
+      <div class="booking-form-wrap fade-up fade-up-delay-1">
+        <h2>Start Your Support Request</h2>
+        <p style="margin-bottom:28px;">Takes 2 minutes. Confirmation sent instantly.</p>
+        <div class="step-progress" role="status" aria-label="Booking progress">
+          <span>Step 1: Describe Issue ✓</span>
+          <span>Step 2: Choose Time (next)</span>
+        </div>
+
+        <form id="bookingForm" novalidate>
+          <!-- Step 1: Device -->
+          <div class="form-section-title">1. Select Your Device</div>
+          <div class="form-group">
+            <label>Device Type <span>*</span></label>
+            <div class="device-selector">
+              <div><input type="radio" name="device" id="dev-phone" value="Phone" class="device-option" required/><label for="dev-phone" class="device-label"><i class="fas fa-mobile-screen-button"></i>Phone</label></div>
+              <div><input type="radio" name="device" id="dev-tablet" value="Tablet" class="device-option"/><label for="dev-tablet" class="device-label"><i class="fas fa-tablet-screen-button"></i>Tablet</label></div>
+              <div><input type="radio" name="device" id="dev-computer" value="Computer/Laptop" class="device-option"/><label for="dev-computer" class="device-label"><i class="fas fa-laptop"></i>Computer</label></div>
+              <div><input type="radio" name="device" id="dev-tv" value="TV" class="device-option"/><label for="dev-tv" class="device-label"><i class="fas fa-tv"></i>TV</label></div>
+              <div><input type="radio" name="device" id="dev-printer" value="Printer" class="device-option"/><label for="dev-printer" class="device-label"><i class="fas fa-print"></i>Printer</label></div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="device_model">Device Brand & Model</label>
+            <input type="text" id="device_model" name="device_model" class="form-control" placeholder="e.g. iPhone 15, Samsung 65 QLED, HP LaserJet Pro"/>
+          </div>
+
+          <!-- Step 2: Support Type -->
+          <div class="form-section-title">2. Choose Support Type</div>
+          <div class="form-group">
+            <label for="support_type">How would you like support? <span>*</span></label>
+            <select id="support_type" name="support_type" class="form-control" required>
+              <option value="">— Select support type —</option>
+              <option value="In-Store Drop-Off">🏪 In-Store Drop-Off (Same-Day Available)</option>
+              <option value="Remote Support">💻 Remote Support (Online Session)</option>
+              <option value="On-Site Visit">🏠 On-Site Visit (We Come to You)</option>
+              <option value="Phone Consultation">📞 Phone Consultation</option>
+            </select>
+          </div>
+
+          <!-- Step 3: Issue -->
+          <div class="form-section-title">3. Describe Your Issue</div>
+          <div class="form-group">
+            <label for="issue_description">What's going on? <span>*</span></label>
+            <textarea id="issue_description" name="issue" class="form-control" placeholder="Describe the problem in as much detail as possible — when it started, what happens, any error messages..." required></textarea>
+          </div>
+
+          <div class="confirmation-box">
+            <i class="fas fa-circle-check"></i>
+            <p><strong>We'll confirm your session within minutes.</strong> You'll receive a text &amp; email with your appointment details and a cost estimate before any work begins.</p>
+          </div>
+          <p class="next-step">Next step: choose your available appointment time securely.</p>
+
+          <!-- Start Square Appointments Embed code -->
+          <a style="background-color:#006aff;color:white;height:40px;text-transform:uppercase;font-family:'Square Market','helvetica neue',helvetica,arial,sans-serif;letter-spacing:1px;line-height:38px;padding:0 28px;border-radius:3px;font-weight:500;font-size:14px;cursor:pointer;display:inline-block;margin-top:12px;" href="https://app.squareup.com/appointments/buyer/widget/je0urryptpy0sc/LXMX69GPC2MT6">Book an appointment</a>
+          <!-- End Square Appointments Embed code -->
+        </form>
+
+        <!-- SUCCESS -->
+        <div id="booking-success" class="form-success">
+          <i class="fas fa-circle-check" style="color:var(--success);"></i>
+          <h3>You're All Set! 🎉</h3>
+          <p style="margin-bottom:8px;">Your support request has been received and saved to our system.</p>
+          <p style="font-size:0.88rem;color:var(--text-secondary);">A technician will review your request and send a confirmation with pricing within minutes. Check your phone and email.</p>
+          <div style="display:flex;gap:12px;justify-content:center;margin-top:20px;flex-wrap:wrap;">
+            <a href="index.html" class="btn btn-secondary"><i class="fas fa-house"></i> Go Home</a>
+            <a href="admin.html" class="btn btn-primary"><i class="fas fa-gauge-high"></i> View Dashboard</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="JaxTech Repairs"/>
+        <p>Crossville's trusted tech support. Fast, local, and honest.</p>
+        <div class="footer-social">
+          <a href="#"><i class="fab fa-facebook-f"></i></a><a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-google"></i></a><a href="#"><i class="fab fa-yelp"></i></a>
+        </div>
+      </div>
+      <div class="footer-col"><h4>Services</h4><ul class="footer-links"><li><a href="services.html">Phone Support</a></li><li><a href="services.html">TV Support</a></li><li><a href="services.html">Computer Support</a></li><li><a href="services.html">Printer Support</a></li></ul></div>
+      <div class="footer-col"><h4>Company</h4><ul class="footer-links"><li><a href="about.html">About</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="booking.html">Book Support</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4>
+        <div class="footer-contact-item"><i class="fas fa-phone"></i><span>931-248-6663</span></div>
+        <div class="footer-contact-item"><i class="fas fa-envelope"></i><span>jaxtechrepairs@gmail.com</span></div>
+        <div class="footer-contact-item"><i class="fas fa-clock"></i><span>Wed: All Day &nbsp;|&nbsp; By Appt Other Days<br/>Saturday: Closed</span></div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2025 JaxTech Repairs. All rights reserved.</p>
+      <div class="footer-bottom-links"><a href="#">Privacy</a><a href="#">Terms</a></div>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+<script>
+// Pre-fill device from URL param
+const urlParams = new URLSearchParams(window.location.search);
+const preDevice = urlParams.get('device');
+const preType = urlParams.get('type');
+if(preDevice) {
+  const map = {'Phone':'dev-phone','Tablet':'dev-tablet','Computer/Laptop':'dev-computer','TV':'dev-tv','Printer':'dev-printer'};
+  const id = map[preDevice];
+  if(id) { const el = document.getElementById(id); if(el) el.checked = true; }
+}
+if(preType) {
+  const st = document.getElementById('support_type');
+  if(st) { for(let o of st.options) { if(o.value.includes(preType.replace('+',' '))) { o.selected = true; break; } } }
+}
+
+</script>
+<style>
+@keyframes fadeInUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+.step-progress{display:flex;flex-direction:column;gap:6px;padding:12px 14px;margin:0 0 18px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--off-white);font-size:0.86rem;font-weight:600;color:var(--text-primary);}
+.step-progress span:last-child{color:var(--text-secondary);font-weight:500;}
+.next-step{margin:14px 0 8px;color:var(--text-secondary);font-size:0.9rem;font-weight:500;}
+</style>
+</body>
+</html>
